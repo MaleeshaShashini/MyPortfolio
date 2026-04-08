@@ -1,13 +1,22 @@
+"use client";
+
 import React from "react";
 
 export const Navbar = () => {
+
+    const scrollToSection = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({behavior: "smooth"});
+        }
+    };
 
     const navLinks = [
         {name:'Home', id:'home'},
         {name:'About',id:'about'},
         {name:'Education',id:'education'},
         {name:'Skills',id:'skills'},
-        {name:'Project',id:'project'},
+        {name:'Project',id:'projects'},
         {name:'Contact',id:'contact'},
     ];
 
@@ -19,6 +28,7 @@ export const Navbar = () => {
                 {navLinks.map((link) =>(
                     <button
                         key={link.id}
+                        onClick = {() => scrollToSection(link.id)}
                         className="text-gray-300 hover:text-white transition-colors"
                     >
                         {link.name}
