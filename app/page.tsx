@@ -15,25 +15,25 @@ import { Snowfall } from '@/components/Snowfall';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-[#00171f] via-[#003459] to-[#00171f] overflow-x-hidden">
-      
-      <div className="fixed inset-0 z-0 pointer-events-none">
-        <Snowfall />
-      </div>
-      
-      <Navbar />
+      <div className="max-w-[98%] mx-auto rounded-lg overflow-hidden">
+        <div className="fixed inset-0 z-0 pointer-events-none">
+          <Snowfall />
+        </div>
+        
+        <Navbar />
 
-      <main>
-          <Hero />
-          <About />
-          <Experience />
-          <Education />
-          <Skills />
-          <Projects />
-          <Contact />
-        </main>
+        <main>
+            <Hero />
+            <About />
+            <Experience />
+            <Education />
+            <Skills />
+            <Projects />
+            <Contact />
+          </main>
 
-        <Footer />
-
+          <Footer />
+      </div> 
     </div>
 
   );
