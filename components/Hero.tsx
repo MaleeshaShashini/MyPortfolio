@@ -24,12 +24,18 @@ export const Hero = () => {
           </p>
           
           <div className="flex gap-4">
-            <button className="px-8 py-3 bg-[#00a8e8] text-white rounded-full font-bold hover:bg-[#007ea7] transition-all">
-              Hire Me
-            </button>
-            <button className="px-8 py-3 border border-white/20 text-white rounded-full font-bold hover:bg-white/10 transition-all">
-              View Work
-            </button>
+            <a href="/Maleesha_Resume.pdf" download="Maleesha_Resume.pdf">
+              <button className="px-8 py-3 bg-gradient-to-r from-[#00a8e8] to-[#8ecae6] text-white rounded-full font-bold hover:bg-[#007ea7] transition-all">
+              Download CV
+              </button>
+            </a>
+            
+            <a href="https://wa.me/+94766636478" target="_blank" rel="noopener noreferrer">
+              <button className="px-8 py-3 border border-white/20 text-white rounded-full font-bold hover:bg-white/10 transition-all">
+              Let's Connect
+              </button>
+            </a>
+
           </div>
         </motion.div>
 
