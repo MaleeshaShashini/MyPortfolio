@@ -20,8 +20,7 @@ export const Hero = () => {
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00a8e8] to-white">Maleesha</span>
           </h1>
           <p className="text-gray-400 text-lg mb-8 max-w-lg">
-            Software Engineering Undergraduate at OUSL & UCSC. Passionate about building high-quality web applications and exploring the world of QA.
-          </p>
+            Software Engineering Undergraduate at OUSL and IT Undergraduate at UCSC. Passionate about building high-quality web applications and exploring the world of QA.          </p>
           
           <div className="flex gap-4">
             <a href="/Maleesha_Resume.pdf" download="Maleesha_Resume.pdf">
