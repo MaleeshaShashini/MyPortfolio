@@ -90,11 +90,11 @@ export const Contact = () => {
                     </div>
 
                     <p className="text-gray-400 leading-relaxed mb-8">
-                    I am currently looking for a **24-week Software Development Internship** as part of my industrial training requirement. If you think I'd be a good fit for your team, let's talk!
+                    I am currently looking for a <span className=" text-white/60">24-week</span> Software Development Internship as part of my industrial training requirement. If you think I'd be a good fit for your team, let's talk!
                     </p>
                     <a 
                     href="mailto:maleeshashashini70@gmail.com"
-                    className="inline-flex items-center gap-3 px-8 py-4 bg-[#00a8e8] text-white rounded-full font-bold hover:bg-[#007ea7] transition-all shadow-lg shadow-[#00a8e8]/20"
+                    className="inline-flex items-center gap-3 px-8 py-4 bg-[#00a8e8] text-white rounded-full font-bold hover:bg-[#007ea7] hover:scale-105 transition-all shadow-lg shadow-[#00a8e8]/20"
                     >
                     Send a Message <Send size={18} />
                     </a>
