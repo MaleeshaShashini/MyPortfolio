@@ -81,7 +81,7 @@ export const Experience = () => {
                 className="relative pl-12 md:pl-24"
               >
                 {/* Timeline Icon Node */}
-                <div className="absolute left-0 md:left-[11px] top-0 w-10 h-10 rounded-xl bg-[#0a0a0a] border border-[#00a8e8] flex items-center justify-center text-[#00a8e8] shadow-[0_0_20px_rgba(0,168,232,0.2)] z-10 group-hover:border-[#00a8e8]/40 transition-all">
+                <div className="absolute left-0 md:left-[11px] top-0 w-10 h-10 rounded-xl bg-gray-800 border border-[#00a8e8] flex items-center justify-center text-[#00a8e8] shadow-[0_0_20px_rgba(0,168,232,0.2)] z-10 group-hover:border-[#00a8e8]/40 transition-all">
                   {exp.icon}
                 </div>
 
