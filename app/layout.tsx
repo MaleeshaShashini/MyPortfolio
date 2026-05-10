@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maleesha Shashini | Portfolio",
+  title: "Maleesha Shashini",
   description: "Software Engineering Undergraduate & Full-stack Developer",
+  keywords: ["Maleesha Shashini", "Maleesha Shashini Almeida", "Maleesha Shashini Portfolio", "Software Engineer Sri Lanka", "Full-stack Developer", "Ufose"],
   verification:{
     google:"ayXPw1M9aELdUv9_QRSqEHIl6l3zV0V8mBKdUvDuIQk",
   }
