@@ -2,7 +2,7 @@
 import React from "react";
 import { Mail } from "lucide-react";
 import { LuCircleChevronUp } from "react-icons/lu";
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -59,14 +59,7 @@ export const Footer = () => {
             >
               <FaLinkedin size={24} />
             </a>
-            <a
-              href="https://www.youtube.com/@MSFreeVibe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#00a8e8] hover:scale-110 transition-all"
-            >
-              <FaYoutube size={24} />
-            </a>
+          
             <a
               href="mailto:maleeshashashini70@gmail.com"
               className="text-gray-400 hover:text-[#00a8e8] hover:scale-110 transition-all"
