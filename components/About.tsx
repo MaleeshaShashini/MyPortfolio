@@ -59,10 +59,15 @@ export const About = () => {
                 <h3 className="text-xl font-bold text-white uppercase tracking-tight">Beyond Coding</h3>
               </div>
               <p className="text-gray-400 leading-relaxed mb-6">
-                When I'm not writing code, you can find me exploring new places! I love traveling and documenting my journeys. 🎥🚂
+                When I'm not writing code, you can find me exploring new places! I love traveling and documenting my journeys. Check out my travel stories and adventures on my YouTube channel! 🎥🚂
               </p>
               
-    
+              <a 
+                href="https://www.youtube.com/@msfreevibe" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 px-6 py-3 bg-white/5 border border-white/10 text-white rounded-full font-bold hover:bg-[#00a8e8] hover:border-[#00a8e8] transition-all text-xs uppercase tracking-widest group/yt"
+              >
                 <FaYoutube size={20} className="text-[#00a8e8] group-hover/yt:text-white transition-colors"/> Visit my YouTube Channel
               </a>
             </motion.div>
@@ -75,7 +80,7 @@ export const About = () => {
             transition={{ duration: 0.8 }}
             className="space-y-6"
           >
-            {/* Degree */}
+            {/* Dual Degree */}
             <div className="flex items-center gap-5 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-[#00a8e8]/50 transition-all group">
               <div className="w-12 h-12 rounded-full bg-[#00a8e8]/10 flex items-center justify-center text-[#00a8e8] group-hover:bg-[#00a8e8] group-hover:text-white transition-all">
                 <GraduationCap size={24} />
