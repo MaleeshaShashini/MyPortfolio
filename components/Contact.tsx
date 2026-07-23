@@ -96,8 +96,8 @@ export const Contact = () => {
                     href="mailto:maleeshashashini70@gmail.com"
                     className="inline-flex items-center gap-3 px-8 py-4 bg-[#00a8e8] text-white rounded-full font-bold hover:bg-[#007ea7] hover:scale-105 transition-all shadow-lg shadow-[#00a8e8]/20"
                     >
-                    Send a Message <Send size={18} />
-                    </a>
+                    Send a Message (Gmail) <Send size={18} />
+                    </a> 
                 </motion.div>
             </div>
 
