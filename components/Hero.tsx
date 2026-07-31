@@ -47,7 +47,7 @@ export const Hero = () => {
         >
           <div className="w-64 h-64 md:w-85 md:h-85 rounded-full bg-gradient-to-b from-[#00a8e8] to-[#00171f] border-4 border-white/10 overflow-hidden shadow-2xl shadow-[#00a8e8]/20 hover:shadow-[#00a8e8]/40">
              
-             <img src="/images/me55.jpeg" alt="Profile" className="w-full h-full object-cover" />
+             <img src="/images/me4.jpeg" alt="Profile" className="w-full h-full object-cover" />
           </div>
         </motion.div>
 
