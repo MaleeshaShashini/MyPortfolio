@@ -80,7 +80,7 @@ const groupProjects = [
     icon: <Users2 size={18} />,
   },
   {
-    title: "ICTFirst LMS Platform",
+    title: "LMS Platform",
     description:
       "A scalable Learning Management System featuring automated enrollment and payment verification for ICTFirst students[cite: 518, 543].",
     highlights: [
