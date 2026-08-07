@@ -11,11 +11,11 @@ import {
 
 const experiences = [
   {
-    role: "Software Engineer | QA",
+    role: "Software Engineer | QA Engineer",
     company: "@Ufose Software Solution",
     period: "2025 - Present",
     description:
-      "Co-founder & Lead Developer of a cutting-edge software consultancy delivering enterprise solutions.",
+      "QA Engineer & Lead Developer of a cutting-edge software consultancy delivering enterprise solutions.",
     highlights: [
       "Leading the technical development of client projects.",
       "Collaborating with a team of developers to build scalable web applications.",
