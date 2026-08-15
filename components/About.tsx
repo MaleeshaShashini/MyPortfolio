@@ -80,7 +80,7 @@ export const About = () => {
               </div>
               <div>
                 <p className="text-gray-500 text-xs uppercase tracking-widest font-bold">Degree </p>
-                <p className="text-white font-medium">BIT @ UCSC</p>
+                <p className="text-white font-medium">Bachelor of Information Technology</p>
               </div>
             </div>
 
