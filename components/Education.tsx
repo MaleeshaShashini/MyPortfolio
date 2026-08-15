@@ -23,7 +23,7 @@ const academicEducation = [
     degree: "Bachelor of Software Engineering (Hons)",
     institution: "Open University of Sri Lanka (OUSL)",
     period: "Nov 2023 – Present",
-    status: "Undergraduate",
+    status: "On Hold (Completed 2nd Year)",
   },
   {
     degree: "Bachelor of Information Technology (BIT)",

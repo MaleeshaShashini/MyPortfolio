@@ -73,14 +73,14 @@ export const About = () => {
             transition={{ duration: 0.8 }}
             className="space-y-6"
           >
-            {/* Dual Degree */}
+            {/*  Degree */}
             <div className="flex items-center gap-5 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-[#00a8e8]/50 transition-all group">
               <div className="w-12 h-12 rounded-full bg-[#00a8e8]/10 flex items-center justify-center text-[#00a8e8] group-hover:bg-[#00a8e8] group-hover:text-white transition-all">
                 <GraduationCap size={24} />
               </div>
               <div>
-                <p className="text-gray-500 text-xs uppercase tracking-widest font-bold">Dual Degree Student</p>
-                <p className="text-white font-medium">BSE (Hons) @ OUSL & BIT @ UCSC</p>
+                <p className="text-gray-500 text-xs uppercase tracking-widest font-bold">Degree </p>
+                <p className="text-white font-medium">BIT @ UCSC</p>
               </div>
             </div>
 
