@@ -13,22 +13,22 @@ import {
 import { FaGithub } from "react-icons/fa";
 
 const individualProjects = [
-  {
-    title: "Personal Portfolio",
-    description:
-      "High-performance professional portfolio built with Next.js App Router. Features complex animations, 3D effects, and optimized SEO.",
-    highlights: [
-      "Server-side rendering for performance.",
-      "Lucide icons & UI components.",
-      "Framer Motion animations.",
-      "Deployed on Vercel with CI/CD.",
-    ],
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-    link: "https://my-portfolio-bay-five-78.vercel.app/",
-    type: "Public",
-    icon: <Code2 size={18} />,
-    git:"https://github.com/MaleeshaShashini/MyPortfolio",
-  },
+  // {
+  //   title: "Personal Portfolio",
+  //   description:
+  //     "High-performance professional portfolio built with Next.js App Router. Features complex animations, 3D effects, and optimized SEO.",
+  //   highlights: [
+  //     "Server-side rendering for performance.",
+  //     "Lucide icons & UI components.",
+  //     "Framer Motion animations.",
+  //     "Deployed on Vercel with CI/CD.",
+  //   ],
+  //   tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+  //   link: "https://my-portfolio-bay-five-78.vercel.app/",
+  //   type: "Public",
+  //   icon: <Code2 size={18} />,
+  //   git:"https://github.com/MaleeshaShashini/MyPortfolio",
+  // },
   {
     title: "Tourism Platform",
     description:
