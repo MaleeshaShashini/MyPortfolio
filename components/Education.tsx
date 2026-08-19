@@ -26,12 +26,12 @@ const academicEducation = [
     period: "Aug 2023 – Present",
     status: "Undergraduate",
   },
-  {
-    degree: "Bachelor of Software Engineering (Hons)",
-    institution: "Open University of Sri Lanka (OUSL)",
-    period: "Nov 2023 – Present",
-    status: "On Hold (Completed 2nd Year)",
-  },
+  // {
+  //   degree: "Bachelor of Software Engineering (Hons)",
+  //   institution: "Open University of Sri Lanka (OUSL)",
+  //   period: "Nov 2023 – Present",
+  //   status: "On Hold (Completed 2nd Year)",
+  // },
 ];
 
 const professionalQualifications = [
